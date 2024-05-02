@@ -8,11 +8,15 @@ public class Main {
 
         Canguru c = new Canguru();
         Cachorro k = new Cachorro();
+        Lobo l = new Lobo();
 
         System.out.println("-------------------------------------");
 
         k.setPeso(10.5f);
         k.setIdade(5);
+        k.reagir(11, 45);
+        k.reagir(21, 00);
+        k.reagir("Olá");
 
 
         System.out.println("-------------------------------------");
