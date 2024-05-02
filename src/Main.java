@@ -17,7 +17,7 @@ public class Main {
         k.reagir(11, 45);
         k.reagir(21, 00);
         k.reagir("Olá");
-
+        k.reagir(false);
 
         System.out.println("-------------------------------------");
 

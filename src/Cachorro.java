@@ -12,6 +12,7 @@ public class Cachorro extends Lobo{
     }
 
     public void reagir(String frase){
+        // Pode ser assim também if(frase == "Toma comida" || frase == "Olá"){
         if(frase.equals("Toma comida")  ||  frase.equals("Olá")){
             System.out.println("Abana e latir");
         } else {
